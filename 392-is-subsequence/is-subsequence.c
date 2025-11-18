@@ -7,7 +7,6 @@ bool isSubsequence(char* s, char* t) {
         t++;
     }
 
-    if (*s == '\0') return true;
-    return false;
+    return (*s == '\0');
     
 }
